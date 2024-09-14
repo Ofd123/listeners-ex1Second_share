@@ -37,8 +37,8 @@ public class resultScreen extends AppCompatActivity
         redPt = getScore.getIntExtra("redCount",0);
         bluePt = getScore.getIntExtra("blueCount",0);
 
-        redScore.setText("red team score - "+String.valueOf(redPt));
-        blueScore.setText("blue team score - "+String.valueOf(bluePt));
+        redScore.setText("red team score: "+String.valueOf(redPt));
+        blueScore.setText("blue team score: "+String.valueOf(bluePt));
 
         if(redPt > bluePt)
         {
@@ -53,7 +53,7 @@ public class resultScreen extends AppCompatActivity
         else
         {
             winner.setText("Its a tie!!!");
-            winner.setTextColor(Color.parseColor("#000000FF"));
+            winner.setTextColor(Color.parseColor("#000000"));
         }
     }
 

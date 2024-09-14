@@ -40,6 +40,7 @@ public class resultScreen extends AppCompatActivity
         redScore.setText("red team score: "+String.valueOf(redPt));
         blueScore.setText("blue team score: "+String.valueOf(bluePt));
 
+
         if(redPt > bluePt)
         {
             winner.setText("RED TEAM WINS!!!");
